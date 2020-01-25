@@ -77,17 +77,16 @@ def case2(dataset):
 
 value4 = case1(ivalue)[1]
 value5 = case1(value4)[1]
-"""
 value6 = case1(value5)[1]
 value7 = case1(value6)[1]
 """
-
 Value4 = case2(ivalue)[1]
 Value5 = case2(Value4)[1]
-"""
 Value6 = case2(Value5)[1]
 Value7 = case2(Value6)[1]
 """
-
+print(case1(ivalue)[2])
 print(case1(value4)[2])
-print(case2(Value4)[2])
+print(case1(value5)[2])
+print(case1(value6)[2])
+#print(case1(value7)[2])
